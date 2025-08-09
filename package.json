@@ -1,0 +1,17 @@
+{
+  "name": "conduit-playwright-ts",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript framework for conduit.bondaracademy.com assignment",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.35.0",
+    "typescript": "^5.0.0",
+    "prettier": "^2.8.0",
+    "allure-playwright": "^2.0.0"
+  }
+}
